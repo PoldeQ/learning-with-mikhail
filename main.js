@@ -1,7 +1,5 @@
-function Add(a,b,res){
-  var a = 2;
-  var b = 2;
-  var res = a + b;
-  console.log(a '+' + b '=' + res);
+var res = funcAdd(2, 2);
+function funcAdd(a, b){
+  a + b;
+  return console.log(a "+" + b "+" + res);
 }
-Add();
